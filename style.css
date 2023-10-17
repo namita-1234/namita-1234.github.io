@@ -1,0 +1,390 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    text-align: center;}
+    h1,h2,h3{
+    font-family: "Nunito", sans-serif;
+}
+html,body{
+    overflow-x: hidden;
+    
+}
+body{
+    overflow-y: hidden;
+}
+body{
+    background-image: url("img1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    font-family: Nunito, sans-serif;
+    color: #252a2c;
+    background-position-y: -106px;
+    background-clip:border-box;
+    background-size: auto;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+/*.midbar{
+    transition:all 0.3s ease-in-out;
+    background-color: transparent;
+}*/
+.paragraph1{
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+    text-align-last:left ;
+    text-align: left;
+    font-weight: 500;
+}
+.paragraph2{
+    margin-left: 57px;
+    text-align: left;
+}
+@media(min-width:200px) and (max-width:600px){
+    html,body{
+        overflow-x: hidden !important;
+        background-image: url("img1.jpg");
+        background-position:center;
+        background-attachment: scroll!important;
+        margin-top:1px;
+       /* background-position-y: 150px;*/
+        background-size: auto;
+    }
+    .image{
+        height:7rem;
+    }
+    .st{
+        margin-left: -1rem!important;
+    }
+    .button{
+        margin-left: -13rem !important;;
+    }
+    
+.pa1{
+    margin-left: -55px !important;
+}
+.pa{
+    margin-left: -25px !important;
+}
+ul li a{
+    text-align: center;
+}
+ul li{
+    background-color: rgb(255, 255, 255);
+}
+.navbar-collapse{
+    margin-left: -300px;
+    z-index: 99;
+}
+.fluid1{
+    margin-left: 0!important;
+}
+.section2{
+    margin-top: 25px!important;
+}
+.para3{
+    margin: 5px !important;;
+}
+h6{
+    font-size: 2rem;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 170%!important;
+}
+
+.mySlides{
+    margin: 12px !important;;
+    padding:4px 0 !important;
+}
+.section5{
+    padding-bottom: 189px !important;
+}
+.item1{
+    padding:0 !important;
+    align-items: center;
+    margin:0 !important;
+}
+}
+@media(min-width:601px) and (max-width:770px){
+    html,body{
+        overflow-x: hidden !important;
+        background-image: url("img1.jpg");
+        background-position:right;
+        background-attachment: scroll;
+        margin-top:1px;
+        background-position-y: 170px;
+        
+    }
+    .photo{
+        height:50% !important;
+        width:50% !important;
+        margin: 24px ;
+    }
+    .img1{
+        width: 150px!important;
+    }
+    .fluid1{
+        margin-left: -10px!important;
+    }
+}
+@media(min-width:771px) and (max-width:1025px){
+    .img1{
+        width: 200px !important;
+    }
+    .photo{
+        height:50% !important;
+        width:50% !important;
+        margin: 24px ;
+    }
+}
+@media(min-width:1200px){
+    .display-3{
+        font-size: 3.5rem;
+    }
+    .img-girl{
+        margin-top:1rem;
+        margin-left: -137px;
+        height:35vh;
+    }
+}
+.pa{
+    margin-left: 5rem;
+}
+.face{
+    margin-left:7rem ;
+}
+.img1{
+    margin-left:20px;
+}
+.navbar-collapse ul li a{
+    color:black;
+    font-weight: 700;
+}
+.navbar-collapse ul li a:hover{
+    color:red;
+}
+.dis1{
+    font-size:3rem;
+    font-weight: 700;
+    text-align: left;
+}
+.text1{
+    font-size:2.5rem;
+    font-weight: 800!important;
+    text-align: left;
+
+}
+.display-3{
+    font-weight: 700;
+    text-align: left;
+}
+.fluid1{
+    margin-left: 131px;
+}
+.para3{
+    margin:10px 100px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    text-align-last: center;
+}
+.para4{
+    text-align: center;
+    text-align-last: center;
+    
+}
+.text-danger{
+    color: red !important;
+}
+.section2{
+    background-color:#e5e9ff;
+    margin-top:150px;
+    width:100%!important;
+}
+.btn-danger{
+    background-color: #f22214!important;
+}
+.btn-danger:hover{
+    background-color: rgb(240, 25, 158)!important;
+    border-radius:#f22214 ;
+}
+.img-girl{
+    height:92vh;
+    margin-top:15rem;
+}
+.head4{
+    margin-left: 20px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   margin-top: -44px;
+}
+.head5{
+    margin-left: -22px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   margin-top: -44px; 
+}
+.head6{
+    margin-left: 50px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   margin-top: -44px; 
+   text-align-last: left; 
+}
+.div1{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    background-color: #f22214;
+    margin-left: -5px;
+}
+.div1:hover{
+transform: rotatey(360deg);
+cursor: pointer;
+transition: 0.7s ease-in-out;}
+.fa-hand-o-right{
+    font-size: 1rem;
+    text-align: center;
+    margin-left:0rem;
+    color:white;
+    margin-top: 15px;
+}
+.st{
+    margin-left:1.3rem;
+}
+.section5{
+    background-image: url("https://www.tecmoz.com/template/img/bg/4.png");
+}
+.bg-dark{
+    background-color: #262e45!important;
+}
+.cont{
+    margin-right:2.8rem;
+}
+.button{
+    margin-left:-24.6rem;
+    margin-bottom:1rem;
+}
+.slideshow-container {
+    position: relative;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    text-align: center;
+    padding:30px 0;
+    background-color:white;
+    margin:55px 30px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f22214;
+  }
+  .prev{
+    position:absolute;
+    left:-30px;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: -30px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Add an italic font style to all quotes */
+  .testmo  {
+margin-right:20px;
+color:#585858;
+text-align-last: left;
+}
+  
+  /* Add a blue color to the author */
+  .author {color: black;
+    text-align: end;
+    font-weight: 600;
+}
+  .cont1{
+    padding-bottom:30px;
+  }
+  .display-4{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .card-text{
+    font-weight: 700;
+  }
+  .imgcard{
+    margin-left: -100px;
+  }
+  .item1{
+    padding:10px 20px;
+    align-items: center;
+    margin: 20px;
+  }
+  .owl-carousel .item1 img {
+    display: block;
+    width: 50% !important;
+}
+.owl-prev {
+    display: none !important;
+}
+.owl-next{
+    display: none !important;
+}
+.section8{
+   background-image: linear-gradient(135deg,#ffe330 0,#fcb53f 100%) !important;
+   padding:10px 0;
+}
+.paragraph4{
+    line-height: 1.3rem;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:10px 10px 0 10px;
+}
+.paragraph3{
+    font-size: 40px ;
+    font-weight: 600 ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.unorder li a{
+    text-decoration: none;
+    float: left;
+}
+.unorder li a:hover{
+    color:red !important;
+    transition:0.5s ease;
+}
+.no:hover{
+    color:red !important;
+    transition:0.5s ease;
+}
+.wp{
+    position:fixed;
+    top:500px;
+    right:20px;
+}
